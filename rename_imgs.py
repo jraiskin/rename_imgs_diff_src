@@ -23,8 +23,8 @@ def get_args():
     )
     parser.add_argument(
         '-m', '--multiples_on_ts', dest='multiples_on_ts',
-        help="PDF orientation. Accepts y for landscape or n for vertical. "
-             "Default value is y. e.g. --landscape=y",
+        help="*Not Implemented* "
+             "This is a y/n flag, y for renaming to remove suffixes indicating more than 1 photo per timestamp",
         default='y',
         choices=['y', 'n']
     )
